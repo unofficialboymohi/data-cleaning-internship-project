@@ -1,0 +1,11 @@
+# Data Dictionary
+
+| Variable | Type | Description | Business Relevance |
+| Trans_ID | String | Unique Transaction Identifier | Track individual sales |
+| Cust_ID | String | Unique Customer Identifier | Link transactions to specific users |
+| Date | Datetime | Date of Purchase | Analyze sales trends over time |
+| Amount | Float | Gross Transaction Value | Calculate Revenue and ROI |
+| Category | String | Product Department | Identify top-performing product lines |
+| Cust_DOB | Datetime | Customer Date of Birth | Demographic segmentation |
+| Status | String | Order Fulfillment State | Monitor logistics and return rates |
+| Customer_Age | Integer | Calculated Age (2026 - DOB) | Target marketing by age group |
